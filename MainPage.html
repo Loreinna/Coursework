@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Художник Наталья Патикина</title>
+    <meta name="description" content="Главная страница">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/layout.css" rel="stylesheet">
+
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div id="HeadTop" class=" headtop container-fluid">
+            <div>
+                <div class="row justify-content-end">
+                    <div class="topinfo d-flex col-6 gap-5">
+                        <a href="#" class="d-flex justify-content-center">Мои проекты</a>
+                        <a href="#" class="d-flex justify-content-center">Обо мне</a>
+                        <a href="Profile.html" class="d-flex justify-content-center">Портфолио</a>
+                        <a href="#" class="d-flex justify-content-center align-items-center">Связаться со мной</a>
+                    </div>
+                    <nav class="d-flex col-2 gap-2">
+                        <a href="https://vk.com/npatikina" class="d-flex justify-content-center align-items-center">
+                            <img src="images/Vk2.png" alt="VK" width="30" >
+                        </a>
+                        <a href="#" class="d-flex justify-content-center align-items-center">
+                            <img src="images/Telegram.png" alt="Telegram" width="33">
+                        </a>
+                        <a href="#" class="d-flex justify-content-center align-items-center">
+                            <img src="images/WhatsApp2.png" alt="Whatsapp" width="32">
+                        </a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Image -->
+    <div class="margin-between-blocks container-fluid ">
+        <div class="d-flex justify-content-center">
+            <img src="images/MainPic.webp" alt="Картина работы" width="1380" height="720">
+        </div> 
+    </div>
+
+    <!-- SecondBlock -->
+     <div class="margin-between-blocks container-fluid p-0">
+        <div class="greycontainer row  mx-auto ">
+            <div class = "secondblock d-flex flex-column col-5 text-center">
+                <div class="Natalya">
+                    Наталья
+                </div>
+                <div class="description">
+                    Художница в жанре <br>
+                    интерьерной <br>
+                    фактруной живописи
+                </div>
+                <!-- Button -->
+                <div class="mt-auto buttom-margin"> 
+                    <a class="profile-button" href="Profile.html" role="button">Перейти к Портфолио</a>
+                </div>
+            </div>
+            <!-- Photo -->
+            <div class = "col-7">
+                <img src="images/Natalya.jpg" alt="Natalya" width="720" class="border-radius-10">
+
+            </div>
+        </div>
+     </div>
+
+
+     <!-- Feedback -->
+     <div class = "container-fluid bottom-block p-0">
+        <div class=" row justify-content-center left-form-margin ">
+            <div class="col-7 ">
+                <h2 class="title">Связаться со мной</h2>
+                <!-- Form -->
+                <form name = "contact" action="#" method="post" class="d-flex flex-column gap-3">
+                    <div class="d-flex align-items-center gap-3">
+                        <label for="fname">Имя *</label>
+                        <input name="fname" id="fname" required>
+                    </div>
+                    <div class="d-flex align-items-center gap-3">
+                        <label for="mail">Почта *</label>
+                        <input type="email" name="mail" id="mail">
+                    </div>
+                    <div class="d-flex align-items-center gap-3">
+                        <label for="phone">Телефон</label>
+                        <input type="tel" name="phone" id="phone"  maxlength="10" required placeholder="8 9123456789">
+                    </div>
+                    <div>
+                        <button type="submit" class="submit-button">Отправить</button>
+                    </div>
+                </form>
+
+            </div>
+
+
+        </div>
+
+     </div>
+
+     <!-- Footer -->
+     <footer>
+        <div class="container-fluid my-3">
+            <div class="row justify-content-center ">
+                <div class="d-flex col-7 gap-5 justify-content-center align-items-center">
+                    <div>+7 934545643</div>
+                    <div>г.Пермь, Россия</div>
+                    <div>Npatikina@gmail.com</div>
+                </div>
+            </div>
+        </div>
+
+     </footer>
+</body>
+</html>

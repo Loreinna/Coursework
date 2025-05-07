@@ -1,0 +1,119 @@
+:root {
+    font-size: 14pt !important;
+    --color-white: #fff;
+    --color-black: #000;
+    --color-grey: #5B5B5B;
+    --color-dark-white:#f1eeeeb7;
+    --color-blue:#2F547F;
+    --color-light-grey:#E2E5Ed;
+    --color-but-grey:#424346;
+}
+
+@font-face {
+    font-family: "TenorSans";
+    src: url("../fonts/TenorSans-Regular.ttf");
+}
+@font-face {
+    font-family: "Streamster";
+    src: url("../fonts/streamsterrusbylyajka.otf");
+}
+@font-face {
+    font-family: "CatLinz";
+    src: url("../fonts/CATLinz_1.8.ttf");
+}
+body {
+    font-family: "TenorSans";
+    margin: 0;
+    width: 100%;
+}
+header {
+    height: 64px;
+}
+.headtop {
+    padding: 15px 0px;
+}
+.headContent {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.topinfo {
+    margin-right: 30px;
+}
+.margin-between-blocks {
+    margin-bottom: 90px;
+}
+.Natalya {
+    font-family: "Streamster";
+    font-size: 64pt;
+}
+.border-radius-10 {
+    border-radius: 10px;
+
+}
+.description {
+    font-family:"CatLinz";
+    font-size: 36pt;
+}
+.greycontainer{
+    background-color: var(--color-light-grey);
+    width: 1380px;
+    padding: 25px;
+}
+.profile-button {
+    background-color: var(--color-but-grey);
+    color: var(--color-white);
+    padding: 17px 46px;
+    font-family:"CatLinz";
+    font-size: 30pt;
+    text-align: center;
+    text-decoration: none;
+}
+.buttom-margin {
+    margin-bottom: 6px;
+}
+.left-form-margin {
+    margin-left: 30px;
+}
+    
+.bottom-block {
+    width: 1380px;
+    height: 565px;
+    background-image:url("../images/BottomPic.webp");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+.title {
+    margin-top: 100px;
+    margin-bottom: 20px;
+    color: var(--color-black);
+}
+
+label {
+    width: 142px;
+    height: 47px;
+    background-color: var(--color-dark-white);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-family:"TenorSans";
+    font-size: 16pt;
+    color: var(--color-black);
+}
+input {
+    width: 520px;
+    height: 47px;
+    border: none;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    /* background: var(--color-dark-white); */
+}
+
+.submit-button {
+    width: 196 px;
+    height: 60px;
+    padding: 10px 20px;
+    background-color: #f1eeee;
+    font-size: 16pt;
+}
